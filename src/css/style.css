@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  color: #202020;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+small,
+.text-small {
+  font-size: 0.833rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.entry {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 800px) {
+  .entry {
+    width: 50%;
+  }
+
+  .wide {
+    width: 100%;
+  }
+}
+#snyk {
+  background: #1c1948;
+}
+#snyk .container {
+  --width: 320px;
+  --height: var(--max-width);
+  --gray: hsl(0, 0%, 86%);
+  --purple-300: hsl(240, 20%, 40%);
+  --purple-400: hsl(240, 28%, 30%);
+  --purple-500: hsl(245, 29%, 25%);
+  --tan: hsl(24, 38%, 64%);
+  --white: hsl(0, 0%, 100%);
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid whitesmoke;
+}
+/*# sourceMappingURL=style.css.map */

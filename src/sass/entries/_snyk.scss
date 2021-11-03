@@ -1,0 +1,23 @@
+// color palette: https://coolors.co/1c1949-302d51-383863-52527b-c59b7f-dcdcdc-ffffff
+
+#snyk {
+	background: hsl(244, 49%, 19%);
+
+	.container {
+		// variables
+		--width: 320px;
+		--height: var(--max-width);
+
+		// colors
+		--gray: hsl(0, 0%, 86%);
+		--purple-300: hsl(240, 20%, 40%);
+		--purple-400: hsl(240, 28%, 30%);
+		--purple-500: hsl(245, 29%, 25%);
+		--tan: hsl(24, 38%, 64%);
+		--white: hsl(0, 0%, 100%);
+
+		width: var(--width);
+		height: var(--height);
+		border: 1px solid whitesmoke;
+	}
+}
